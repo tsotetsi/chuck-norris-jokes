@@ -12,3 +12,7 @@ def get_chuck_norris_jokes():
     response = requests.get(api_url).json()
 
     return "<strong>Random joke from chuck norris: </strong>" + response['value']
+
+
+if __name__ == '__main__':
+    app.run()
